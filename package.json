@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@material-tailwind/react": "^2.1.4",
     "cross-env": "^7.0.3",
     "next": "13.5.4",
     "react": "^18",

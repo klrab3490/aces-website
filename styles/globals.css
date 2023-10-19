@@ -169,7 +169,7 @@
 
 /* Dark Mode Styles */
 .dark-mode {
-  background-color: #333; /* Dark background color */
+  background-color: black; /* Dark background color */
   color: #fff; /* Light text color */
 }
 
@@ -186,4 +186,17 @@
   border-color: #fff; /* Change button border color to white */
   color: #fff; /* Change button text color to white */
   background-color: transparent; /* Make button background transparent */
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+  color: #fff; /* Change text color to white */
+}
+
+.dark-mode .desc{
+  color: #cbc0c0;
 }
