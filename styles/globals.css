@@ -200,3 +200,9 @@
 .dark-mode .desc{
   color: #cbc0c0;
 }
+
+div .maintext {
+    background: url('../public/sahrdaya.jpg');
+    width: auto;
+    height: auto;
+}
