@@ -1,0 +1,43 @@
+/* components/ImageSlider.module.css */
+.slider {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+  }
+  
+  .slide {
+    display: none;
+    flex: 0 0 100%;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .registerButton {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .slider {
+      display: block;
+    }
+  
+    .slide {
+      display: block;
+    }
+  
+    .registerButton {
+      position: relative;
+      margin-top: 10px;
+    }
+  }
+  
