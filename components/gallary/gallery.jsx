@@ -11,16 +11,8 @@ import img6 from './img/sahrdaya.jpg';
 function Gallery() {
     const imgUrls = [ img1,img2,img3,img4,img5,img6,img1,img2,img3,img4,img5,img6,img4,img5,img6 ,img6,img4,img5 ];
 
-    const sectionStyle = {
-        background: `url('/bg.jpg')`, // Update the path to your background image
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        padding: "40px 0",
-        position: "relative",
-    };
-
     return (
-        <section className="py-6 text-gray-50" style={sectionStyle}>
+        <section className="py-6 text-gray-50">
             <div className="container grid grid-cols-2 gap-4 p-1 mx-auto md:grid-cols-6">
                 {imgUrls.map((url, index) => (
                     <div key={index} 
