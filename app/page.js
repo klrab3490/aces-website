@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Gallery from '@components/gallary/gallery';
+import EventCard from '@components/eventcard/eventcard';
+import LogoCard from '@components/logocard/logocard';
 
 export const metadata = {
     title: 'ACES Homepage',
@@ -29,11 +31,13 @@ const Home = () => {
             </div>
             <div>
                 <h2 className='mt-5 font-bold text-black text-2xl'> Upcoming Events: </h2>
-
+                <div className='flex-center'>
+                    <EventCard />
+                </div>        
             </div>
             <div>
                 <h2 className='mt-5 font-bold text-black text-2xl'> Group: </h2>
-                
+                <LogoCard />
             </div>
         </section>
     )
