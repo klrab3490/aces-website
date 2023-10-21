@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
             <body className={`main-layout ${darkMode ? 'dark-mode' : ''}`}>
                 <section className="min-h-screen">
                     <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
-                    <div className='px-7'>{children}</div>
+                    <div style={{ paddingTop: '80px'}} className='px-7'>{children}</div>
                 </section>
             </body>
         </html>
