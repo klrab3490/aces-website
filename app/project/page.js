@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import ProjectCard from '@components/project/projectcard';
 import React from 'react';
 
 export const metadata = {
@@ -11,16 +11,7 @@ const page = () => {
         <section className='w-full flex-col'>
             <h2 className='mt-5 head_text font-bold text-black text-2xl'> Projects 🧑🏻‍💻 : </h2>
             <div className="">
-
-                <div class="">
-                    <Image src="/aces.png" width={150} height={150} alt="logo"/>
-                    <p>Chess</p>
-                </div>
-
-                <div class="">
-                    <Image src="/aces.png" width={150} height={150} alt="logo"/>
-                    <p>Connect - 4</p>
-                </div>
+                <ProjectCard />
             </div>
         </section>
     )
