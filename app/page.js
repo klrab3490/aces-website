@@ -31,7 +31,7 @@ const Home = () => {
             </div>
             <div>
                 <h2 className='mt-5 font-bold text-black text-2xl'> Upcoming Events: </h2>
-                <div className='flex-center'>
+                <div className='flex-center py-6'>
                     <EventCard />
                 </div>        
             </div>
