@@ -14,14 +14,14 @@ const page = () => {
             <div className="">
                 <ul>
                     <li>
-                        <Link href={#} >Semester 1</Link>
-                        <Link href={#} >Semester 2</Link>
-                        <Link href={#} >Semester 3</Link>
-                        <Link href={#} >Semester 4</Link>
-                        <Link href={#} >Semester 5</Link>
-                        <Link href={#} >Semester 6</Link>
-                        <Link href={#} >Semester 7</Link>
-                        <Link href={#} >Semester 8</Link>
+                        <Link href={"#"} >Semester 1</Link>
+                        <Link href={"#"} >Semester 2</Link>
+                        <Link href={"#"} >Semester 3</Link>
+                        <Link href={"#"} >Semester 4</Link>
+                        <Link href={"#"} >Semester 5</Link>
+                        <Link href={"#"} >Semester 6</Link>
+                        <Link href={"#"} >Semester 7</Link>
+                        <Link href={"#"} >Semester 8</Link>
                     </li>
                 </ul>
             </div>
