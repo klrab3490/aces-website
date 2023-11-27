@@ -100,7 +100,7 @@
 }
 
 .desc {
-  @apply mt-5 text-lg text-gray-600 sm:text-xl max-w-2xl;
+  @apply mt-5 text-lg text-gray-600 sm:text-xl w-full sm:w-12 md:w-2/3;
 }
 
 .search_input {

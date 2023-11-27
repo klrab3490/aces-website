@@ -29,7 +29,6 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
             <div className="justify-left">
                 <ul className="hidden sm:flex gap-4">
                     <li className="logo_text hover:text-gray-600"> <Link href={"/"}> Home </Link> </li>
-                    <li className="logo_text hover:text-gray-600"> <Link href={"/about"}> About </Link> </li>
                     <li className="logo_text hover:text-gray-600"> <Link href={"/event"}> Events </Link> </li>
                     <li className="logo_text hover:text-gray-600"> <Link href={"/project"}> Project </Link> </li>
                     <li className="logo_text hover:text-gray-600"> <Link href={"/team"}> Team </Link> </li>

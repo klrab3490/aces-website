@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Gallery from '@components/gallary/gallery';
 import EventCard from '@components/eventcard/eventcard';
 import LogoCard from '@components/logocard/logocard';
 
@@ -26,8 +25,12 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <h2 className='mt-5 font-bold text-black text-2xl'> Event Highlights: </h2>
-                <Gallery />
+                <h2 className='mt-5 font-bold text-black text-2xl'> About: </h2>
+                <div className='flex-center'>
+                    <p className='desc text-center'>
+                        ACES is the official association of the Department of Computer Science and Engineering, Sahrdaya College of Engineering and Technology, Kodakara. The association aims to provide a platform for the students to showcase their talents and to develop their technical skills. ACES conducts various technical and non-technical events throughout the year. The association also conducts workshops, seminars and industrial visits to help students to gain knowledge about the latest technologies and trends in the industry. ACES also conducts various events to help students to improve their soft skills and to develop their personality. The association also conducts various social welfare activities to help the society.
+                    </p>
+                </div>
             </div>
             <div>
                 <h2 className='mt-5 font-bold text-black text-2xl'> Upcoming Events: </h2>

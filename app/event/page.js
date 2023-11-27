@@ -1,3 +1,4 @@
+import Gallery from '@components/event/highlight/gallery';
 import React from 'react';
 
 export const metadata = {
@@ -8,9 +9,27 @@ export const metadata = {
 const page = () => {
     return (
         <section className='w-full flex-col'>
-            <h2 className='mt-5 head_text font-bold text-black text-2xl'> Event : </h2>
-            <div className="">
+            <div>
+                <h2 className='mt-5 head_text font-bold text-black text-2xl'> Event Highlights: </h2>
+                <div className='flex-center'>
+                    <Gallery />
+                </div>
             </div>
+            <div className="">
+                <h2 className='mt-5 head_text font-bold text-black text-2xl'> Event : </h2>
+                <div>
+                    <h2 className='ml-10 mt-3 font-bold text-black text-xl'> 1.Font-End Web-Development:  </h2>
+                    <div className='flex-center'>
+                    </div>
+                    <h2 className='ml-10 mt-3 font-bold text-black text-xl'> 2.Upwarp:  </h2>
+                    <div className='flex-center'>
+                    </div>
+                    <h2 className='ml-10 mt-3 font-bold text-black text-xl'> 3.Coding Competition:  </h2>
+                    <div className='flex-center'>
+                    </div>
+                </div>
+            </div>
+            
         </section>
     )
 }

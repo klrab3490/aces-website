@@ -28,7 +28,15 @@ const EventCard = () => {
 
     return (
         <>
-            <Swiper spaceBetween={30} centeredSlides={true} autoplay={{ delay: 2500, disableOnInteraction: false }} pagination={{ clickable:true }} navigation={true} modules={[ Autoplay, Pagination, Navigation ]} className='mySwiper'>
+            <Swiper 
+                spaceBetween={30} 
+                centeredSlides={true} 
+                autoplay={{ delay: 2500, disableOnInteraction: false }} 
+                pagination={{ clickable:true }} 
+                navigation={true} 
+                modules={[ Autoplay, Pagination, Navigation ]} 
+                className='mySwiper'
+            >
                 {events.map((data,index) => (
                     <SwiperSlide key={index}>
                         <center>
