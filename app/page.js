@@ -34,13 +34,17 @@ const Home = () => {
             </div>
             <div>
                 <h2 className='mt-5 font-bold text-black text-2xl'> Upcoming Events: </h2>
-                <div className='flex-center py-6'>
+                <div className='flex-center'>
                     <EventCard />
                 </div>        
             </div>
             <div>
                 <h2 className='mt-5 font-bold text-black text-2xl'> Group: </h2>
-                <LogoCard />
+                <div className='flex-center'>
+                    <LogoCard />
+                </div> 
+            </div>
+            <div className='mt-5'>
             </div>
         </section>
     )
