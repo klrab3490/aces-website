@@ -12,17 +12,19 @@ import { Autoplay, Pagination } from 'swiper/modules';
 
 const LogoCard = () => {
     return(
-        <section className='mt-6'>
-            <div className='container'>
-                <Swiper 
-                    loop={true} 
-                    slidesPerView={4} 
-                    spaceBetween={20} 
-                    pagination={{ clickable: true }} 
-                    rewind={true}
-                    autoplay={{ delay: 2500, disableOnInteraction: false }} 
-                    modules={[ Autoplay ]} 
-                    className='mySwiper'
+        <section className='mt-6 '>
+            <div className='container h-10'>
+                <Swiper
+                    pagination={{
+                        dynamicBullets: true,
+                    }}
+                    loop={true}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}  
+                    modules={[ Pagination, Autoplay ]}
+                    className="mySwiper h-10 w-16"
                 >
                     <SwiperSlide> Slide 1 </SwiperSlide>
                     <SwiperSlide> Slide 2 </SwiperSlide>
