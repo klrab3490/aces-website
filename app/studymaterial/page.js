@@ -1,6 +1,5 @@
-import ProjectCard from '@components/project/projectcard';
-import Link from 'next/link';
 import React from 'react';
+import Widget from '@components/widget';
 
 export const metadata = {
     title: 'ACES Study Material',
@@ -11,19 +10,11 @@ const page = () => {
     return (
         <section className='w-full flex-col'>
             <h2 className='mt-5 head_text font-bold text-black text-2xl'> Study Materials : </h2>
-            <div className="">
-                <ul>
-                    <li>
-                        <Link href={"#"} >Semester 1</Link>
-                        <Link href={"#"} >Semester 2</Link>
-                        <Link href={"#"} >Semester 3</Link>
-                        <Link href={"#"} >Semester 4</Link>
-                        <Link href={"#"} >Semester 5</Link>
-                        <Link href={"#"} >Semester 6</Link>
-                        <Link href={"#"} >Semester 7</Link>
-                        <Link href={"#"} >Semester 8</Link>
-                    </li>
-                </ul>
+            <div className='flex'>
+                <Widget type={"12"} />          
+                <Widget type={"3"} />          
+                <Widget type={"4"} />          
+                <Widget type={"5"} />          
             </div>
         </section>
     )

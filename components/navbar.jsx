@@ -33,6 +33,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
                     <li className="logo_text hover:text-gray-600"> <Link href={"/project"}> Project </Link> </li>
                     <li className="logo_text hover:text-gray-600"> <Link href={"/team"}> Team </Link> </li>
                     <li className="logo_text hover:text-gray-600"> <Link href={"/faculty"}> Faculty </Link> </li>
+                    <li className="logo_text hover:text-gray-600"> <Link href={"/studymaterial"}> Study Matrials </Link> </li>
                     <li className="logo_text hover:text-gray-600">
                         <button onClick={toggleDarkMode} >
                             {darkMode
@@ -73,6 +74,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
                                 <li className="p-4 text-4xl hover:text-gray-600" onClick={handleNav}> <Link href={"/project"}> Project </Link> </li>
                                 <li className="p-4 text-4xl hover:text-gray-600" onClick={handleNav}> <Link href={"/team"}> Team </Link> </li>
                                 <li className="p-4 text-4xl hover:text-gray-600" onClick={handleNav}> <Link href={"/faculty"}> Faculty </Link> </li>
+                                <li className="p-4 text-4xl hover:text-gray-600" onClick={handleNav}> <Link href={"/studymaterial"}> Study Matrials </Link> </li>
                             </ul>
                         </div>  
                     </div>
@@ -86,10 +88,10 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
                         <ul className="sm:flex font-satoshi font-semibold">
                             <li className="p-4 text-4xl hover:text-gray-600" onClick={handleNav}> <Link href={"/"}> Home </Link> </li>
                             <li className="p-4 text-4xl hover:text-gray-600" onClick={handleNav}> <Link href={"/event"}> Events </Link> </li>
-                            <li className="p-4 text-4xl hover:text-gray-600" onClick={handleNav}> <Link href={"/about"}> About </Link> </li>
                             <li className="p-4 text-4xl hover:text-gray-600" onClick={handleNav}> <Link href={"/project"}> Project </Link> </li>
                             <li className="p-4 text-4xl hover:text-gray-600" onClick={handleNav}> <Link href={"/team"}> Team </Link> </li>
                             <li className="p-4 text-4xl hover:text-gray-600" onClick={handleNav}> <Link href={"/faculty"}> Faculty </Link> </li>
+                            <li className="p-4 text-4xl hover:text-gray-600" onClick={handleNav}> <Link href={"/studymaterial"}> Study Matrials </Link> </li>
                         </ul>
                     </div>  
                 </div>

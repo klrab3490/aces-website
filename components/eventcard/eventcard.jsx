@@ -60,7 +60,7 @@ const EventCard = () => {
                 <br/>
             </Swiper>
         </>
-    )
+    );
 };
 
 export default EventCard;
