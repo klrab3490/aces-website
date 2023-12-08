@@ -1,14 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
-import '@styles/widget.module.css'
 
 const Widget = ({ type }) => {
     let data;
 
     switch (type) {
-        case "12":
+        case "1":
             data = {
-                title: "Semester 1 & 2",
+                title: "Semester 1",
                 list: (
                     <ul>
                         <li>Linear Algebra And Calculus (MAT101)</li>
@@ -16,6 +15,18 @@ const Widget = ({ type }) => {
                         <li>Engineering Graphics (EST110)</li>
                         <li>Basics Of Civil And Mechanical Engineering (EST120)</li>
                         <li>Life Skills (HUN101)</li>
+                    </ul>
+                ),
+                link: (<Link href={"#"} >Semester 1</Link>),
+                icon: "",
+            };
+            break;
+
+        case '2':
+            data = {
+                title: "Semester 2",
+                list: (
+                    <ul>
                         <li>Engineering Chemistry (CYT100)</li>
                         <li>Engineering Mechanics (EST100)</li>
                         <li>Basics Of Electrical And Electronics Engineering (EST130)</li>
@@ -24,7 +35,7 @@ const Widget = ({ type }) => {
                         <li>Vector Calculus, Differential Equations And Transforms (MAT102)</li>
                     </ul>
                 ),
-                link: (<Link href={"/studymaterial/S1"} >Semester 1</Link>),
+                link: (<Link href={"#"} >Semester 2</Link>),
                 icon: "",
             };
             break;
@@ -44,7 +55,7 @@ const Widget = ({ type }) => {
                         <li>Object Oriented Programming Lab In Java (CSL203)</li>
                     </ul>
                 ),
-                link: (<Link href={"/studymaterial/S3"} >Semester 3</Link>),
+                link: (<Link href={"#"} >Semester 3</Link>),
                 icon: "",
             };
             break;
@@ -64,7 +75,7 @@ const Widget = ({ type }) => {
                         <li>Digital Lab (CSL202)</li>
                     </ul>
                 ),
-                link: (<Link href={"/studymaterial/S4"} >Semester 4</Link>),
+                link: (<Link href={"#"} >Semester 4</Link>),
                 icon: "",
             };
             break;
@@ -84,7 +95,7 @@ const Widget = ({ type }) => {
                         <li>Database Management Systems Lab (CSL333)</li>
                     </ul>
                 ),
-                link: (<Link href={"/studymaterial/S5"} >Semester 5</Link>),
+                link: (<Link href={"#"} >Semester 5</Link>),
                 icon: "",
             };break;
 
@@ -92,7 +103,7 @@ const Widget = ({ type }) => {
             data = {
                 title: "Semester 6",
                 list: "",
-                link: (<Link href={"/studymaterial/S6"} >Semester 6</Link>),
+                link: (<Link href={"#"} >Semester 6</Link>),
                 icon: "",
             };
             break;
@@ -101,7 +112,7 @@ const Widget = ({ type }) => {
             data = {
                 title: "Semester 7",
                 list: "",
-                link: (<Link href={"/studymaterial/S7"} >Semester 7</Link>),
+                link: (<Link href={"#"} >Semester 7</Link>),
                 icon: "",
             };
             break;
@@ -110,7 +121,7 @@ const Widget = ({ type }) => {
             data = {
                 title: "Semester 8",
                 list: "",
-                link: (<Link href={"/studymaterial/S8"} >Semester 8</Link>),
+                link: (<Link href={"#"} >Semester 8</Link>),
                 icon: "",
             };
             break;

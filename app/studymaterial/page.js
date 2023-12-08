@@ -9,12 +9,16 @@ export const metadata = {
 const page = () => {
     return (
         <section className='w-full flex-col'>
-            <h2 className='mt-5 head_text font-bold text-black text-2xl'> Study Materials : </h2>
-            <div className='flex'>
-                <Widget type={"12"} />          
+            <h2 className='mt-5 head_text font-bold text-black text-2xl'>Study Materials :</h2>
+            <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
+                <Widget type={"1"} />          
+                <Widget type={"2"} />          
                 <Widget type={"3"} />          
                 <Widget type={"4"} />          
                 <Widget type={"5"} />          
+                <Widget type={"6"} />          
+                <Widget type={"7"} />          
+                <Widget type={"8"} />          
             </div>
         </section>
     )

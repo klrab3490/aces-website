@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <div className="text-gray-600 body-font">
-            <hr />
+            <hr className='mt-5'/>
             <div className="container px-2 py-15 mx-auto">
                 <div className="flex flex-wrap md:text-left text-center order-first">
                 <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -28,13 +28,16 @@ const Footer = () => {
                     <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Contributed By</h2>
                     <nav className="list-none mb-10">
                         <li>
-                            <Link href={"https://wwww.rahulab.live"} className="text-gray-600 hover:text-gray-800">1.Rahul A B</Link>
+                            <Link href={"https://wwww.rahulab.vercel.app"} className="text-gray-600 hover:text-gray-800">1. Rahul A B</Link>
                         </li>
                         <li>
-                            <Link href={"#"} className="text-gray-600 hover:text-gray-800">2.Jose </Link>
+                            <Link href={"#"} className="text-gray-600 hover:text-gray-800">2. Jose Antony</Link>
                         </li>
                         <li>
-                            <Link href={"https://www.vivekkj.in"} className="text-gray-600 hover:text-gray-800">3.Vivek K J</Link>
+                            <Link href={"https://www.vivekkj.in"} className="text-gray-600 hover:text-gray-800">3. Vivek K J</Link>
+                        </li>
+                        <li>
+                            <Link href={"https://www.joeljaison.me"} className="text-gray-600 hover:text-gray-800">4. Joel Jaison</Link>
                         </li>
                     </nav>
                 </div>
