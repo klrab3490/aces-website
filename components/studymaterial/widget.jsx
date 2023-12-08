@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
+
 const Widget = ({ type }) => {
     let data;
 
@@ -17,10 +18,11 @@ const Widget = ({ type }) => {
                         <li>Life Skills (HUN101)</li>
                     </ul>
                 ),
-                link: (<Link href={"#"} >Semester 1</Link>),
+                link: (<Link href={"studymaterial/S1/Notes"} >Semester 1 : Notes</Link>),
+                link2: (<Link href={"studymaterial/S1/PreYearQuestion"} >Semester 1 : Question Papers</Link>),
+                link3: (<Link href={"#"} >Semester 1 : Syllabus</Link>),
                 icon: "",
-            };
-            break;
+            };break;
 
         case '2':
             data = {
@@ -35,10 +37,11 @@ const Widget = ({ type }) => {
                         <li>Vector Calculus, Differential Equations And Transforms (MAT102)</li>
                     </ul>
                 ),
-                link: (<Link href={"#"} >Semester 2</Link>),
+                link: (<Link href={"#"} >Semester 2 : Notes</Link>),
+                link2: (<Link href={"#"} >Semester 2 : Question Papers</Link>),
+                link3: (<Link href={"#"} >Semester 2 : Syllabus</Link>),
                 icon: "",
-            };
-            break;
+            };break;
         
         case '3':
             data = {
@@ -55,10 +58,11 @@ const Widget = ({ type }) => {
                         <li>Object Oriented Programming Lab In Java (CSL203)</li>
                     </ul>
                 ),
-                link: (<Link href={"#"} >Semester 3</Link>),
+                link: (<Link href={"#"} >Semester 3 : Notes</Link>),
+                link2: (<Link href={"#"} >Semester 3 : Question Papers</Link>),
+                link3: (<Link href={"#"} >Semester 3 : Syllabus</Link>),
                 icon: "",
-            };
-            break;
+            };break;
         
         case "4":
             data = {
@@ -75,10 +79,11 @@ const Widget = ({ type }) => {
                         <li>Digital Lab (CSL202)</li>
                     </ul>
                 ),
-                link: (<Link href={"#"} >Semester 4</Link>),
+                link: (<Link href={"#"} >Semester 4 : Notes</Link>),
+                link2: (<Link href={"#"} >Semester 4 : Question Papers</Link>),
+                link3: (<Link href={"#"} >Semester 4 : Syllabus</Link>),
                 icon: "",
-            };
-            break;
+            };break;
 
         case "5":
             data = {
@@ -95,7 +100,9 @@ const Widget = ({ type }) => {
                         <li>Database Management Systems Lab (CSL333)</li>
                     </ul>
                 ),
-                link: (<Link href={"#"} >Semester 5</Link>),
+                link: (<Link href={"#"} >Semester 5 : Notes</Link>),
+                link2: (<Link href={"#"} >Semester 5 : Question Papers</Link>),
+                link3: (<Link href={"#"} >Semester 5 : Syllabus</Link>),
                 icon: "",
             };break;
 
@@ -103,28 +110,31 @@ const Widget = ({ type }) => {
             data = {
                 title: "Semester 6",
                 list: "",
-                link: (<Link href={"#"} >Semester 6</Link>),
+                link: (<Link href={"#"} >Semester 6 : Notes</Link>),
+                link2: (<Link href={"#"} >Semester 6 : Question Papers</Link>),
+                link3: (<Link href={"#"} >Semester 6 : Syllabus</Link>),
                 icon: "",
-            };
-            break;
+            };break;
         
         case "7":
             data = {
                 title: "Semester 7",
                 list: "",
-                link: (<Link href={"#"} >Semester 7</Link>),
+                link: (<Link href={"#"} >Semester 7 : Notes</Link>),
+                link2: (<Link href={"#"} >Semester 7 : Question Papers</Link>),
+                link3: (<Link href={"#"} >Semester 7 : Syllabus</Link>),
                 icon: "",
-            };
-            break;
+            };break;
         
         case "8":
             data = {
                 title: "Semester 8",
                 list: "",
                 link: (<Link href={"#"} >Semester 8</Link>),
+                link2: (<Link href={"#"} >Semester 8 : Question Papers</Link>),
+                link3: (<Link href={"#"} >Semester 8 : Syllabus</Link>),
                 icon: "",
-            };
-            break;
+            };break;
     };
 
     return (
@@ -134,10 +144,11 @@ const Widget = ({ type }) => {
                     <div className='title'> {data.title} </div>
                     <div className='list'> {data.list} </div>
                     <div className='link'> {data.link} </div>
+                    <div className='link'> {data.link2} </div>
                 </div>
                 <div className='right'>
                     <div className='icon'> {data.icon} </div>
-                    <div>1</div>
+                    <div className='link'> {data.link3} </div>
                 </div>
             </div>
         </div>

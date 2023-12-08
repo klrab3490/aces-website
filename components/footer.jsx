@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="text-gray-600 body-font">
             <hr className='mt-5'/>
-            <div className="container px-2 py-15 mx-auto">
+            <div className="mt-5 container px-2 py-15 mx-auto">
                 <div className="flex flex-wrap md:text-left text-center order-first">
                 <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                     <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Social Media</h2>

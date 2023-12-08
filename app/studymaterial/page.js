@@ -1,5 +1,5 @@
 import React from 'react';
-import Widget from '@components/widget';
+import Widget from '@components/studymaterial/widget';
 
 export const metadata = {
     title: 'ACES Study Material',
