@@ -3,10 +3,8 @@
 import Footer from '@components/footer';
 import Navbar from '@components/navbar'
 import '@styles/globals.css'
-import { Inter } from 'next/font/google'
 import { useState } from 'react'
 
-const inter = Inter({ subsets: ['latin'] })
 
 const metadata = {
     title: 'ACES',

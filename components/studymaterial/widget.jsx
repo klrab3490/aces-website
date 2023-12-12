@@ -1,6 +1,22 @@
 import React from 'react'
 import Link from 'next/link'
-
+import Image from 'next/image'
+import s1w from '@components/studymaterial/ico/s1w.png'
+import s2w from '@components/studymaterial/ico/s2w.png'
+import s3w from '@components/studymaterial/ico/s3w.png'
+import s4w from '@components/studymaterial/ico/s4w.png'
+import s5w from '@components/studymaterial/ico/s5w.png'
+import s6w from '@components/studymaterial/ico/s6w.png'
+import s7w from '@components/studymaterial/ico/s7w.png'
+import s8w from '@components/studymaterial/ico/s8w.png'
+import s1b from '@components/studymaterial/ico/s1b.png'
+import s2b from '@components/studymaterial/ico/s2b.png'
+import s3b from '@components/studymaterial/ico/s3b.png'
+import s4b from '@components/studymaterial/ico/s4b.png'
+import s5b from '@components/studymaterial/ico/s5b.png'
+import s6b from '@components/studymaterial/ico/s6b.png'
+import s7b from '@components/studymaterial/ico/s7b.png'
+import s8b from '@components/studymaterial/ico/s8b.png'
 
 const Widget = ({ type }) => {
     let data;
@@ -9,131 +25,65 @@ const Widget = ({ type }) => {
         case "1":
             data = {
                 title: "Semester 1",
-                list: (
-                    <ul>
-                        <li>Linear Algebra And Calculus (MAT101)</li>
-                        <li>Engineering Physics A (PHT100)</li>
-                        <li>Engineering Graphics (EST110)</li>
-                        <li>Basics Of Civil And Mechanical Engineering (EST120)</li>
-                        <li>Life Skills (HUN101)</li>
-                    </ul>
-                ),
-                link: (<Link href={"studymaterial/S1/Notes"} >Semester 1 : Notes</Link>),
-                link2: (<Link href={"studymaterial/S1/PreYearQuestion"} >Semester 1 : Question Papers</Link>),
+                link: (<Link href={"/studymaterial/S1"} >Semester 1</Link>),
                 link3: (<Link href={"#"} >Semester 1 : Syllabus</Link>),
-                icon: "",
+                icon: (<Image src={s1w} alt="Semester 1" width={100} height={100} />),
             };break;
 
         case '2':
             data = {
                 title: "Semester 2",
-                list: (
-                    <ul>
-                        <li>Engineering Chemistry (CYT100)</li>
-                        <li>Engineering Mechanics (EST100)</li>
-                        <li>Basics Of Electrical And Electronics Engineering (EST130)</li>
-                        <li>Professional Communication (HUN102)</li>
-                        <li>Programming In C (EST102)</li>
-                        <li>Vector Calculus, Differential Equations And Transforms (MAT102)</li>
-                    </ul>
-                ),
-                link: (<Link href={"#"} >Semester 2 : Notes</Link>),
-                link2: (<Link href={"#"} >Semester 2 : Question Papers</Link>),
+                link: (<Link href={"/studymaterial/S2"} >Semester 2</Link>),
                 link3: (<Link href={"#"} >Semester 2 : Syllabus</Link>),
-                icon: "",
+                icon: (<Image src={s2w} alt="Semester 2" width={100} height={100} />),
             };break;
         
         case '3':
             data = {
                 title: "Semester 3",
-                list: (
-                    <ul>
-                        <li>Discrete Mathematical Structures (MAT203)</li>
-                        <li>Data Structures (CST201)</li>
-                        <li>Logic System Design (CST203)</li>
-                        <li>Object Oriented Programming Using Java (CST205)</li>
-                        <li>Professional Ethics (Hut200)</li>
-                        <li>Sustainable Engineering (MCN201)</li>
-                        <li>Data Structures Lab (CSL201)</li>
-                        <li>Object Oriented Programming Lab In Java (CSL203)</li>
-                    </ul>
-                ),
-                link: (<Link href={"#"} >Semester 3 : Notes</Link>),
-                link2: (<Link href={"#"} >Semester 3 : Question Papers</Link>),
+                link: (<Link href={"/studymaterial/S3"} >Semester 3</Link>),
                 link3: (<Link href={"#"} >Semester 3 : Syllabus</Link>),
-                icon: "",
+                icon: (<Image src={s3w} alt="Semester 3" width={100} height={100} />),
             };break;
         
         case "4":
             data = {
                 title: "Semester 4",
-                list: (
-                    <ul>
-                        <li>Graph Theory (MAT206)</li>
-                        <li>Computer Organisation And Architecture (CST202)</li>
-                        <li>Database Management Systems (CST204)</li>
-                        <li>Operating Systems (CST206)</li>
-                        <li>Design And Engineering (EST200)</li>
-                        <li>Constitution Of India (MCN202)</li>
-                        <li>Operating Systems Lab (CSL204)</li>
-                        <li>Digital Lab (CSL202)</li>
-                    </ul>
-                ),
-                link: (<Link href={"#"} >Semester 4 : Notes</Link>),
-                link2: (<Link href={"#"} >Semester 4 : Question Papers</Link>),
+                link: (<Link href={"/studymaterial/S4"} >Semester 4</Link>),
                 link3: (<Link href={"#"} >Semester 4 : Syllabus</Link>),
-                icon: "",
+                icon: (<Image src={s4w} alt="Semester 4" width={100} height={100} />),
             };break;
 
         case "5":
             data = {
                 title: "Semester 5",
-                list: (
-                    <ul>
-                        <li>Disaster Management (MCN301)</li>
-                        <li>Formal Languages And Automata Theory (CST301)</li>
-                        <li>Computer Networks (CST303)</li>
-                        <li>Software Engineering (CST305)</li>
-                        <li>Microprocessors And Microcontrollers (CST307)</li>
-                        <li>Management Of Software Systems (CST309)</li>
-                        <li>System Software And Microprocessors Lab (CSL331)</li>
-                        <li>Database Management Systems Lab (CSL333)</li>
-                    </ul>
-                ),
-                link: (<Link href={"#"} >Semester 5 : Notes</Link>),
-                link2: (<Link href={"#"} >Semester 5 : Question Papers</Link>),
+                link: (<Link href={"/studymaterial/S5"} >Semester 5</Link>),
                 link3: (<Link href={"#"} >Semester 5 : Syllabus</Link>),
-                icon: "",
+                icon: (<Image src={s5w} alt="Semester 5" width={100} height={100} />),
             };break;
 
         case "6":
             data = {
                 title: "Semester 6",
-                list: "",
-                link: (<Link href={"#"} >Semester 6 : Notes</Link>),
-                link2: (<Link href={"#"} >Semester 6 : Question Papers</Link>),
+                link: (<Link href={"/studymaterial/S6"} >Semester 6</Link>),
                 link3: (<Link href={"#"} >Semester 6 : Syllabus</Link>),
-                icon: "",
+                icon: (<Image src={s6w} alt="Semester 6" width={100} height={100} />),
             };break;
         
         case "7":
             data = {
                 title: "Semester 7",
-                list: "",
-                link: (<Link href={"#"} >Semester 7 : Notes</Link>),
-                link2: (<Link href={"#"} >Semester 7 : Question Papers</Link>),
+                link: (<Link href={"/studymaterial/S7"} >Semester 7</Link>),
                 link3: (<Link href={"#"} >Semester 7 : Syllabus</Link>),
-                icon: "",
+                icon: (<Image src={s7w} alt="Semester 7" width={100} height={100} />),
             };break;
         
         case "8":
             data = {
                 title: "Semester 8",
-                list: "",
-                link: (<Link href={"#"} >Semester 8</Link>),
-                link2: (<Link href={"#"} >Semester 8 : Question Papers</Link>),
+                link: (<Link href={"/studymaterial/S8"} >Semester 8</Link>),
                 link3: (<Link href={"#"} >Semester 8 : Syllabus</Link>),
-                icon: "",
+                icon: (<Image src={s8w} alt="Semester 8" width={100} height={100} />),
             };break;
     };
 
@@ -142,9 +92,7 @@ const Widget = ({ type }) => {
             <div className='widget'>
                 <div className='left'>
                     <div className='title'> {data.title} </div>
-                    <div className='list'> {data.list} </div>
                     <div className='link'> {data.link} </div>
-                    <div className='link'> {data.link2} </div>
                 </div>
                 <div className='right'>
                     <div className='icon'> {data.icon} </div>

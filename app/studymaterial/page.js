@@ -9,8 +9,8 @@ export const metadata = {
 const page = () => {
     return (
         <section className='w-full flex-col'>
-            <h2 className='mt-5 head_text font-bold text-black text-2xl'>Study Materials :</h2>
-            <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
+            <h2 className='mt-5 head_text font-bold text-black text-2xl'>Study Materials:</h2>
+            <div className='grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-5'>
                 <Widget type={"1"} />          
                 <Widget type={"2"} />          
                 <Widget type={"3"} />          

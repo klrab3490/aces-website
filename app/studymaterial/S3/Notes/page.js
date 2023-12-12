@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
     return (
-        <div>Semester 3 : Notes</div>
+        <div>Semester 2 : Notes</div>
     )
 }
 
