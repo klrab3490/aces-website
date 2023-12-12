@@ -22,6 +22,9 @@ const Footer = () => {
                     <li>
                         <Link href={"#"} className="text-gray-600 hover:text-gray-800">Twitter</Link>
                     </li>
+                    <li>
+                        <Link href={"https://github.com/aces2022"} className="text-gray-600 hover:text-gray-800">Github</Link>
+                    </li>
                     </nav>
                 </div>
                 <div className="lg:w-2/4 md:w-1/2 w-full px-4">
