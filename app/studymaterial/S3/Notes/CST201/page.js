@@ -9,7 +9,7 @@ export const metadata = {
 const page = () => {
     return (
         <section className='w-full flex-col'>
-            <h1 className='head_text font-bold text-black text-4xl flex justify-center'>
+            <h1 className='head_text font-bold text-black text-4xl flex sm:text-flex justify-center'>
                 <Link href={"/studymaterial/S3"}><div className='underline'>Semester 3 : Notes : Data Structures</div></Link>
             </h1>
             <div className=''>
@@ -20,7 +20,9 @@ const page = () => {
                         <li>System Life Cycle, Algorithms, Performance Analysis, Space Complexity, Time Complexity</li>
                         <li>Asymptotic Notation, Complexity Calculation of Simple Algorithm</li>
                     </ul>
-                    <iframe src="https://drive.google.com/file/d/1-4FgFWnTaSnccBnAvGOQ7sucFDm023aF/preview" width="640" height="480" allow="autoplay"></iframe>
+                </div>
+                <div className='flex items-center justify-center'>
+                    <iframe src="https://drive.google.com/file/d/1-4FgFWnTaSnccBnAvGOQ7sucFDm023aF/preview" height={480} allow="autoplay" className="w-full sm:w-2/3 lg:w-1/2"></iframe>
                 </div>
             </div>
             <div>
@@ -32,7 +34,9 @@ const page = () => {
                         <li>Queues-Circular Queues, Priority Queues, Double-Ended Queues</li>
                         <li>Evaluation of Expressions Linear Search and Binary Search</li>
                     </ul>
-                    <iframe src="https://drive.google.com/file/d/1GJgI57S8ZeSGKSP-Ttj2-OXcCHSJBhrt/preview" width="640" height="480" allow="autoplay"></iframe>
+                </div>
+                <div className='flex items-center justify-center'>
+                    <iframe src="https://drive.google.com/file/d/1GJgI57S8ZeSGKSP-Ttj2-OXcCHSJBhrt/preview" height={480} allow="autoplay" className="w-full sm:w-2/3 lg:w-1/2"></iframe>
                 </div>
             </div>
             <div>
@@ -44,7 +48,9 @@ const page = () => {
                         <li>Doubly Linked List, Circular Linked List, Stacks and Queues using Linked List</li>
                         <li>Polynomial representation using Linked List Memory allocation and de-allocation-First-fit, Best-fit and Worst-fit allocation schemes</li>
                     </ul>
-                    <iframe src="https://drive.google.com/file/d/1-uSNZrW5xtX9xc1cY7mXqyAg3jjytH7c/preview" width="640" height="480" allow="autoplay"></iframe>
+                </div>
+                <div className='flex items-center justify-center'>
+                    <iframe src="https://drive.google.com/file/d/1-uSNZrW5xtX9xc1cY7mXqyAg3jjytH7c/preview" height={480} allow="autoplay" className="w-full sm:w-2/3 lg:w-1/2"></iframe>
                 </div>
             </div>
             <div>
@@ -56,7 +62,9 @@ const page = () => {
                         <li>Binary Search Trees- Binary Search Tree Operations Graphs, Representation of Graphs</li>
                         <li>Depth First Search and Breadth-First Search on Graphs, Applications of Graphs</li>
                     </ul>
-                    <iframe src="https://drive.google.com/file/d/1qzgGr18BgoUT9O0ERAByCOZJQ2JRLyPX/preview" width="640" height="480" allow="autoplay"></iframe>
+                </div>
+                <div className='flex items-center justify-center'>
+                    <iframe src="https://drive.google.com/file/d/1qzgGr18BgoUT9O0ERAByCOZJQ2JRLyPX/preview" height={480} allow="autoplay" className="w-full sm:w-2/3 lg:w-1/2"></iframe>
                 </div>
             </div>
             <div>
@@ -68,7 +76,9 @@ const page = () => {
                         <li>Hashing - Hashing Techniques, Collision Resolution, Overflow handling</li>
                         <li>Hashing functions - Mid square, Division, Folding, Digit Analysis</li>
                     </ul>
-                    <iframe src="https://drive.google.com/file/d/11XYA0F_KcarK5VbrqLP3VUw1sSPUACvb/preview" width="640" height="480" allow="autoplay"></iframe>
+                </div>
+                <div className='flex items-center justify-center'>
+                    <iframe src="https://drive.google.com/file/d/11XYA0F_KcarK5VbrqLP3VUw1sSPUACvb/preview" height={480} allow="autoplay" className="w-full sm:w-2/3 lg:w-1/2"></iframe>
                 </div>
             </div>
         </section>

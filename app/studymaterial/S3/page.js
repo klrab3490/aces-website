@@ -13,10 +13,8 @@ const page = () => {
                 <div className='underline'>Semester 3</div>
             </h1>
             <h2 className='mt-5 head_text font-bold text-black text-2xl'>Study Materials :</h2>
-            <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
+            <div className='ml-5'>
                 <ul>
-                    <li> <Link href={"/studymaterial/S3/Notes/CSL201"}>Data Structures Lab (CSL201)</Link> </li>
-                    <li> <Link href={"/studymaterial/S3/Notes/CSL201"}>Object Oriented Programming Lab Using Java (CSL203)</Link> </li>
                     <li> <Link href={"/studymaterial/S3/Notes/CST201"}>Data Structures (CST201)</Link> </li>
                     <li> <Link href={"/studymaterial/S3/Notes/CST203"}>Logic System Design (CST203)</Link> </li>
                     <li> <Link href={"/studymaterial/S3/Notes/CST205"}>Object Oriented Programming Using Java (CST205)</Link> </li>
@@ -26,7 +24,7 @@ const page = () => {
                 </ul>       
             </div>
             <h2 className='mt-5 head_text font-bold text-black text-2xl'>Previous Year Question Papers :</h2>
-            <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
+            <div className='ml-5'>
                 <ul>
                     <li> <Link href={"/studymaterial/S3/PreYearQuestion/CST201"}>Data Structures (CST201)</Link> </li>
                     <li> <Link href={"/studymaterial/S3/PreYearQuestion/CST203"}>Logic System Design (CST203)</Link> </li>
@@ -35,6 +33,13 @@ const page = () => {
                     <li> <Link href={"/studymaterial/S3/PreYearQuestion/MAT203"}>Discrete Mathematical Structures (MAT203)</Link> </li>
                     <li> <Link href={"/studymaterial/S3/PreYearQuestion/MCN201"}>Sustainable Engineering (MCN201)</Link> </li>
                 </ul>       
+            </div>
+            <h2 className='mt-5 head_text font-bold text-black text-2xl'>Lab :</h2>
+            <div className='ml-5'>
+                <ul>
+                    <li> <Link href={"https://github.com/aces2022/ktu-s3-csl-201-ds-lab"}>Data Structures Lab (CSL201)</Link> </li>
+                    <li> <Link href={"https://github.com/aces2022/ktu-s3-csl-203-oop-lab"}>Object Oriented Programming Lab Using Java (CSL203)</Link> </li>
+                </ul>
             </div>
         </section>
     )
