@@ -237,18 +237,10 @@ const FacultyCard = () => {
                         <h5 className="flex-center text-2xl font-bold tracking-tight">{data.name}</h5>
                         <p className="flex-center mb-3 font-normal text-gray-400"> {data.position} </p>
                         <div className="flex-center space-x-4 mb-2">{}
-                            {
-                                data.instagram ? <Link href={data.instagram}> <AiFillInstagram size={30} /> </Link> : ""
-                            }
-                            {
-                                data.linkedin ? <Link href={data.linkedin}> <AiFillLinkedin size={30} /> </Link> : ""
-                            }
-                            {
-                                data.email ? <Link href={data.email}> <MdEmail size={30} /> </Link> : ""
-                            }
-                            {
-                                data.website ? <Link href={data.website}> <FaGlobe size={25} /> </Link> : ""
-                            }
+                            { data.instagram ? <Link href={data.instagram}> <AiFillInstagram size={30} /> </Link> : "" }
+                            { data.linkedin ? <Link href={data.linkedin}> <AiFillLinkedin size={30} /> </Link> : "" }
+                            { data.email ? <Link href={data.email}> <MdEmail size={30} /> </Link> : "" }
+                            { data.website ? <Link href={data.website}> <FaGlobe size={25} /> </Link> : "" }
                         </div>
                     </div>
                 </div>
