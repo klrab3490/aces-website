@@ -69,7 +69,7 @@ const TeamCard = () => {
             {team.map((member, index) => (
                 <div key={index} className={`max-w-sm border rounded-lg shadow mb-4 flex`}>
                     <div className="flex items-center justify-center p-3">
-                        <Image src={member.image} alt={member.name} width={200} height={200} className='rounded-lg' />
+                        <Image src={member.image} alt={member.name} width={150} height={150} className='rounded-lg' />
                     </div>
                     <div className='flex-grow p-4 sm:pl-8'>
                         <h2 className='title-font font-medium text-lg text-gray-900'> {member.name} </h2>

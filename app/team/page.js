@@ -1,4 +1,4 @@
-import TeamCard from '@components/team/card'
+import TeamCard from '@components/team/teamcard'
 import React from 'react'
 
 export const metadata = {
@@ -10,7 +10,7 @@ const page = () => {
     return (
         <section className='w-full flex-col'>
             <h2 className='mt-5 head_text font-bold text-black text-2xl'> Team : </h2>
-            <div className="">
+            <div className="p-5 flex-center">
                 <TeamCard />
             </div>
         </section>

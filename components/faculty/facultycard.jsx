@@ -234,8 +234,8 @@ const FacultyCard = () => {
                         <Image className="rounded-lg" src={data.img} alt={data.name} width={150} height={150} />
                     </div>
                     <div className="p-2">
-                        <h5 className="flex-center text-2xl font-bold tracking-tight">{data.name}</h5>
-                        <p className="flex-center mb-3 font-normal text-gray-400"> {data.position} </p>
+                        <h5 className="flex-center text-2xl text-center font-bold tracking-tight">{data.name}</h5>
+                        <p className="flex-center text-center mb-3 font-normal text-gray-400"> {data.position} </p>
                         <div className="flex-center space-x-4 mb-2">{}
                             { data.instagram ? <Link href={data.instagram}> <AiFillInstagram size={30} /> </Link> : "" }
                             { data.linkedin ? <Link href={data.linkedin}> <AiFillLinkedin size={30} /> </Link> : "" }
