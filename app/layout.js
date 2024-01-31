@@ -3,10 +3,10 @@
 import Footer from '@components/footer';
 import Navbar from '@components/navbar'
 import '@styles/globals.css'
-import usedarkMode from '@lib/darkMode';
+import { useDarkMode } from '@lib/darkMode';
 
 export default function RootLayout({ children }) {
-    const [darkMode, toggleDarkMode] = usedarkMode();
+    const [darkMode, toggleDarkMode] = useDarkMode();
 
     return (
         <html lang="en">

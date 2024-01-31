@@ -18,7 +18,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
     };
     
     return (
-        <nav className={`flex-between w-full mb-3 px-4 py-2 ${darkMode ? "dark-mode" : "light-mode"}`} style={{ zIndex: "12 !important", position: "fixed", top: 0, width: "100%"  }} >
+        <nav className={`flex-between items-center justify-center w-full mb-3 px-4 py-2 ${darkMode ? "dark-mode" : "light-mode"}`} style={{ zIndex: "12 !important", position: "fixed", top: 0, width: "100%"  }} >
             <Link href='/' className="flex gap-4 flex-center">
                 {darkMode
                     ? <Image src="/aces-white.png" alt="ACES Logo" width={90} height={70} />
