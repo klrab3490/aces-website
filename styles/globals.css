@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 .main {
   width: 100vw;
@@ -135,7 +134,7 @@
 
 /* Nav Component */
 .logo_text {
-  @apply max-sm:hidden font-semibold text-lg text-black tracking-wide;
+  @apply max-sm:hidden  text-lg text-black tracking-wide;
 }
 
 .dropdown {
@@ -202,14 +201,14 @@
   color: #fff; /* Change text color to white */
 }
 
-.dark-mode .desc{
+.dark-mode .desc {
   color: #cbc0c0;
 }
 
 div .maintext {
-    background: url('../public/sahrdaya.jpg');
-    width: auto;
-    height: auto;
+  background: url("../public/sahrdaya.jpg");
+  width: auto;
+  height: auto;
 }
 
 .widget {
@@ -225,45 +224,45 @@ div .maintext {
 
   .left,
   .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .title {
+      font-weight: bold;
+      font-size: 14px;
+      color: rgb(160, 160, 160);
+    }
+
+    .counter {
+      font-size: 28px;
+      font-weight: 300;
+    }
+
+    .link {
+      width: max-content;
+      font-size: 12px;
+      border-bottom: 1px solid gray;
+    }
+
+    .percentage {
       display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-  
-      .title {
-          font-weight: bold;
-          font-size: 14px;
-          color: rgb(160, 160, 160);
+      align-items: center;
+      font-size: 14px;
+
+      &.positive {
+        color: green;
       }
-  
-      .counter {
-          font-size: 28px;
-          font-weight: 300;
+      &.negative {
+        color: red;
       }
-  
-      .link {
-          width: max-content;
-          font-size: 12px;
-          border-bottom: 1px solid gray;
-      }
-  
-      .percentage {
-          display: flex;
-          align-items: center;
-          font-size: 14px;
-  
-          &.positive {
-          color: green;
-          }
-          &.negative {
-          color: red;
-          }
-      }
-  
-      .icon {
-          font-size: 18px;
-          padding: 5px;
-          border-radius: 5px;
-          align-self: flex-end;
-      }
+    }
+
+    .icon {
+      font-size: 18px;
+      padding: 5px;
+      border-radius: 5px;
+      align-self: flex-end;
+    }
   }
 }
