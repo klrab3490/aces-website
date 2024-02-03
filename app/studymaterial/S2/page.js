@@ -14,7 +14,7 @@ const page = () => {
             </h1>
             <h2 className='mt-5 head_text font-bold text-black text-2xl'>Study Materials :</h2>
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
-                <ul>
+                <ul className="list-disc ml-5 w-full">
                     <li> <Link href={"/studymaterial/S2/Notes/CYT100"}>Engineering Chemistry (CYT100)</Link> </li>
                     <li> <Link href={"/studymaterial/S2/Notes/EST100"}>Engineering Mechanics (EST100)</Link> </li>
                     <li> <Link href={"/studymaterial/S2/Notes/EST102"}>Programming In C (EST102)</Link> </li>
@@ -25,7 +25,7 @@ const page = () => {
             </div>
             <h2 className='mt-5 head_text font-bold text-black text-2xl'>Previous Year Question Papers :</h2>
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
-                <ul>
+                <ul className="list-disc ml-5 w-full">
                     <li> <Link href={"/studymaterial/S2/PreYearQuestion/CYT100"}>Engineering Chemistry (CYT100)</Link> </li>
                     <li> <Link href={"/studymaterial/S2/PreYearQuestion/EST100"}>Engineering Mechanics (EST100)</Link> </li>
                     <li> <Link href={"/studymaterial/S2/PreYearQuestion/EST102"}>Programming In C (EST102)</Link> </li>

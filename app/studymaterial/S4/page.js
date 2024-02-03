@@ -14,7 +14,7 @@ const page = () => {
             </h1>
             <h2 className='mt-5 head_text font-bold text-black text-2xl'>Study Materials :</h2>
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
-                <ul>
+                <ul className="list-disc ml-5 w-full">
                     <li> <Link href={"https://github.com/vivekkj123/ktu-s4-csl-202-digital-lab"}>Digital Lab (CSL202)</Link> </li>
                     <li> <Link href={"https://github.com/vivekkj123/ktu-s4-csl-204-os-lab"}>Operating Systems Lab (CSL204)</Link> </li>
                     <li> <Link href={"/studymaterial/S4/Notes/CST202"}>Computer Organisation And Architecture (CST202)</Link> </li>
@@ -27,7 +27,7 @@ const page = () => {
             </div>
             <h2 className='mt-5 head_text font-bold text-black text-2xl'>Previous Year Question Papers :</h2>
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
-                <ul>
+                <ul className="list-disc ml-5 w-full">
                     <li> <Link href={"/studymaterial/S4/PreYearQuestion/CST202"}>Computer Organisation And Architecture (CST202)</Link> </li>
                     <li> <Link href={"/studymaterial/S4/PreYearQuestion/CST204"}>Database Management Systems (CST204)</Link> </li>
                     <li> <Link href={"/studymaterial/S4/PreYearQuestion/CST206"}>Operating Systems (CST206)</Link> </li>

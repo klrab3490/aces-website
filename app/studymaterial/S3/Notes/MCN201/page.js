@@ -11,7 +11,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 1:- Sustainability</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Introduction, concept, the evolution of the concept</li>
                         <li>Social, environmental, and economic sustainability concepts</li>
                         <li>Sustainable development, Nexus between Technology and Sustainable development</li>
@@ -26,7 +26,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 2:- Environmental Pollution</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Air Pollution and its effects, Water pollution and its sources, Zero waste concept and 3 R concepts in solid waste management</li>
                         <li>Greenhouse effect, Global warming, Climate change, Ozone layer depletion, Carbon credits, carbon trading and carbon footprint, legal provisions for environmental protection.</li>
                     </ul>
@@ -39,7 +39,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 3:- Environmental Management Standards</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>ISO 14001:2015 framework and benefits</li>
                         <li>Scope and goal of Life Cycle Analysis(LCA)</li>
                         <li>Circular economy</li>
@@ -56,7 +56,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 4:- Resources And Their Utilisation</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Basic concepts of Conventional and non-conventional energy</li>
                         <li>General idea about solar energy</li>
                         <li>Fuel cells</li>
@@ -74,7 +74,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 5:- Sustainability Practices</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Basic concept of sustainable habitat</li>
                         <li>Methods for increasing energy efficiency in buildings</li>
                         <li>Green Engineering</li>

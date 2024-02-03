@@ -11,7 +11,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 1:- Fundamentals of Logic</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Mathematical logic - Basic connectives and truth table, Statements, Logical Connectives, Tautology, Contradiction</li>
                         <li>Logical Equivalence - The Laws of Logic, The Principle of duality, Substitution Rules. The implication - The Contrapositive, The Converse,The Inverse</li>
                         <li>Logical Implication - Rules of Inference</li>
@@ -28,7 +28,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 2:- Fundamentals of Counting Theory</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>The Rule of Sum – Extension of Sum Rule</li>
                         <li>The Rule of Product - Extension of Product Rule</li>
                         <li>Permutations</li>
@@ -48,7 +48,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 3:- Relations and Functions</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Cartesian Product - Binary Relation</li>
                         <li>Function – domain, range-one to one function, Image- restriction</li>
                         <li>Properties of Relations- Reachability Relations, Reflexive Relations, Symmetric Relations, Transitive relations, Anti-symmetric Relations, Partial Order relations, Equivalence Relations, Irreflexive relations</li>
@@ -66,7 +66,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 4:- Generating Functions and Recurrence Relations</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Generating Function - Definition and Examples, Calculation techniques, Exponential generating function</li>
                         <li>First-order linear recurrence relations with constant coefficients - homogeneous, non-homogeneous Solution</li>
                         <li>Second-order linear recurrence relations with constant coefficients, homogeneous, non-homogeneous Solution</li>
@@ -80,7 +80,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 5:- Algebraic Structures</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Algebraic system-properties- Homomorphism and Isomorphism</li>
                         <li>Semigroup and monoid - cyclic monoid, sub semigroup and sub monoid, Homomorphism and Isomorphism of Semigroup and monoids</li>
                         <li>Group- Elementary properties, subgroup, the symmetric group on three symbols, The direct product of two groups, Group Homomorphism, Isomorphism of groups, Cyclicgroup</li>

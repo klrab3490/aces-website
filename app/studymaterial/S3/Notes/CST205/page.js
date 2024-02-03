@@ -11,7 +11,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 1:- Introduction to Java</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Approaches to Software Design - Functional Oriented Design, Object Oriented Design, Case Study of Automated Fire Alarm System. Object Modeling Using</li>
                         <li>Unified Modeling Language (UML) - Basic Object Oriented concepts, UML diagrams, Use case model, Class diagram, Interaction diagram, Activity diagram, Statechart diagram</li>
                         <li>Introduction to Java - Java programming Environment and Runtime Environment</li>
@@ -27,7 +27,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 2:- Core Java Fundamentals</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Core Java Fundamentals: Primitive Data types - Integers, Floating-Point Types, Characters, Boolean</li>
                         <li>Literals, Type Conversion and Casting, Variables, Arrays, Strings, Vector class</li>
                         <li>Operators - Arithmetic Operators, Bitwise Operators, Relational Operators, Boolean Logical Operators, Assignment Operator, Conditional (Ternary) Operator, Operator Precedence</li>
@@ -44,7 +44,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 3:- More features of Java</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Packages and Interfaces - Defining Package, CLASSPATH, Access Protection, Importing Packages, Interfaces</li>
                         <li>Exception Handling - Checked Exceptions, Unchecked Exceptions, try Block and catch Clause, Multiple catch Clauses, Nested try Statements, throw, throws and finally</li>
                         <li>Input/Output - I/O Basics, Reading Console Input, Writing Console Output, PrintWriter Class, Object Streams and Serialization, Working with Files</li>
@@ -58,7 +58,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 4:- Advanced features of Java</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Java Library - String Handling - String Constructors, String Length, Special String Operations</li>
                         <li>Special String Operations - Character Extraction, String Comparison, Searching Strings, Modifying Strings, using valueOf(), Comparison of StringBuffer and String</li>
                         <li>Collections framework - Collections overview, Collections Interfaces, List Interface</li>
@@ -76,7 +76,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 5:- Graphical User Interface and Database support of Java</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Swings Fundamentals - Swing Key Features, Model View Controller (MVC), Swing Controls, Components and Containers, Swing Packages, Event Handling in Swings, Swing Layout Managers, Exploring Swings</li>
                         <li>Exploring Swings - JFrame, JLabel, The Swing Buttons, JTextField</li>
                         <li>Java DataBase Connectivity (JDBC) - JDBC overview, Creating and Executing Queries</li>

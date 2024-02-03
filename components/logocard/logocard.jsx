@@ -12,27 +12,24 @@ import { Autoplay, Pagination } from 'swiper/modules';
 
 const LogoCard = () => {
     return(
-        <section className='mt-6 '>
+        <section className='mt-6 flex items-center justify-center'>
             <div className='container h-10'>
                 <Swiper
-                    pagination={{
-                        dynamicBullets: true,
-                    }}
                     loop={true}
                     autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
                     }}  
                     modules={[ Pagination, Autoplay ]}
-                    className="mySwiper h-10 w-16"
+                    className="mySwiper h-30 w-30 flex items-center justify-center"
                 >
-                    <SwiperSlide> Slide 1 </SwiperSlide>
-                    <SwiperSlide> Slide 2 </SwiperSlide>
-                    <SwiperSlide> Slide 3 </SwiperSlide>
-                    <SwiperSlide> Slide 4 </SwiperSlide>
-                    <SwiperSlide> Slide 5 </SwiperSlide>
-                    <SwiperSlide> Slide 6 </SwiperSlide>
-                    <SwiperSlide> Slide 7 </SwiperSlide>
+                    <SwiperSlide><center> ACES Media Cell </center></SwiperSlide>
+                    <SwiperSlide><center> ACES AI/ML Club </center></SwiperSlide>
+                    <SwiperSlide><center> ACES Android Club </center></SwiperSlide>
+                    <SwiperSlide><center> ACES Software Club </center></SwiperSlide>
+                    <SwiperSlide><center> ACES Cyber Security Club </center></SwiperSlide>
+                    <SwiperSlide><center> ACES Sports Club </center></SwiperSlide>
+                    <SwiperSlide><center> ACES Arts Club </center></SwiperSlide>
                 </Swiper>
             </div> 
         </section>

@@ -1,6 +1,7 @@
 import React from 'react';
 import EventCard from '@components/eventcard/eventcard';
 import LogoCard from '@components/logocard/logocard';
+import AchievementCard from '@components/achievementcard/achievement';
 
 export const metadata = {
     title: 'ACES Homepage',
@@ -40,6 +41,12 @@ const Home = () => (
             <h2 className='mt-5 font-bold text-black text-2xl'> Group: </h2>
             <div className='flex-center'>
                 <LogoCard />
+            </div>
+        </div>
+        <div>
+            <h2 className='mt-5 font-bold text-black text-2xl'> Department Achievement: </h2>
+            <div className='flex-center'>
+                <AchievementCard />
             </div>
         </div>
         <div className='mt-5'>

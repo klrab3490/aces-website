@@ -14,13 +14,13 @@ const page = () => {
             </h1>
             <h2 className='mt-5 head_text font-bold text-black text-2xl'>Study Materials :</h2>
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
-                <ul>
+                <ul className="list-disc ml-5 w-full">
                     <li> <Link href={"/studymaterial/S7/Notes/"}></Link> </li>
                 </ul>       
             </div>
             <h2 className='mt-5 head_text font-bold text-black text-2xl'>Previous Year Question Papers :</h2>
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
-                <ul>
+                <ul className="list-disc ml-5 w-full">
                     <li> <Link href={"/studymaterial/S7/PreYearQuestion/"}></Link> </li>
                 </ul>       
             </div>

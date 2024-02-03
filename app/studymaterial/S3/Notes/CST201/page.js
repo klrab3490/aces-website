@@ -16,7 +16,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 1:- Basic Concepts of Data Structures</h3>
                 <div className='ml-10'>
                     Syllabus<br/>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>System Life Cycle, Algorithms, Performance Analysis, Space Complexity, Time Complexity</li>
                         <li>Asymptotic Notation, Complexity Calculation of Simple Algorithm</li>
                     </ul>
@@ -29,7 +29,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 2:- Arrays and Searching</h3>
                 <div className='ml-10'>
                     Syllabus<br/>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Polynomial representation using Arrays, Sparse matrix, Stacks</li>
                         <li>Queues-Circular Queues, Priority Queues, Double-Ended Queues</li>
                         <li>Evaluation of Expressions Linear Search and Binary Search</li>
@@ -43,7 +43,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 3:- Linked List and Memory Management</h3>
                 <div className='ml-10'>
                     Syllabus<br/>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Self Referential Structures, Dynamic Memory Allocation, Singly Linked List-Operations on Linked List</li>
                         <li>Doubly Linked List, Circular Linked List, Stacks and Queues using Linked List</li>
                         <li>Polynomial representation using Linked List Memory allocation and de-allocation-First-fit, Best-fit and Worst-fit allocation schemes</li>
@@ -57,7 +57,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 4:- Trees and Graphs</h3>
                 <div className='ml-10'>
                     Syllabus<br/>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Trees, Binary Trees - Tree Operations, Binary Tree Representation, Tree Traversals</li>
                         <li>Binary Search Trees- Binary Search Tree Operations Graphs, Representation of Graphs</li>
                         <li>Depth First Search and Breadth-First Search on Graphs, Applications of Graphs</li>
@@ -71,7 +71,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 5:- Sorting and Hashing</h3>
                 <div className='ml-10'>
                     Syllabus<br/>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Sorting Techniques - Selection Sort, Insertion Sort, Quick Sort, Merge Sort and Heap Sort</li>
                         <li>Hashing - Hashing Techniques, Collision Resolution, Overflow handling</li>
                         <li>Hashing functions - Mid square, Division, Folding, Digit Analysis</li>

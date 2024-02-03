@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 
 import '@styles/eventcard.module.css';
 
-import { Autoplay, Pagination,  EffectCoverflow } from 'swiper/modules';
+import { Autoplay, Pagination, EffectCoverflow } from 'swiper/modules';
 
 import Image from "next/image";
 import Link from 'next/link';
@@ -18,12 +18,11 @@ import football from './img/football.jpeg';
 import project from './img/project.jpeg';
 import webdev from './img/webdev.jpeg';
 
-const EventCard = () => {
+const AchievementCard = () => {
     const events = [
-        { id:1, image: coding, button: "https://www.rahulab.live/" },
-        { id:2, image: football, button: "https://www.rahulab.live/" },
-        { id:3, image: project, button: "https://www.rahulab.live/" },
-        { id:4, image: webdev, button: "https://www.rahulab.live/" },
+        { id:1, image: coding, button: "https://www.rahulab.live/", desc: "Aces congratulates Robin Francis" },
+        { id:2, image: project, button: "https://www.rahulab.live/" },
+        { id:3, image: webdev, button: "https://www.rahulab.live/" },
     ]
 
     return (
@@ -45,7 +44,6 @@ const EventCard = () => {
                     modifier: 1,
                     slideShadows: true,
                 }}
-                pagination={true}
                 modules={[ EffectCoverflow, Autoplay, Pagination ]}
                 className="mySwiper"
             >
@@ -53,7 +51,7 @@ const EventCard = () => {
                     <SwiperSlide key={index} className='px-2'>
                         <center>
                             <Image src={data.image} height={402} width={402} />
-                            <button className='p-2 border'> <Link href={data.button}>Register Now</Link> </button>
+                            <p className='p-2'>  </p>
                         </center>
                     </SwiperSlide>
                 ))}
@@ -63,4 +61,4 @@ const EventCard = () => {
     );
 };
 
-export default EventCard;
+export default AchievementCard;

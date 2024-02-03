@@ -14,14 +14,26 @@ const page = () => {
             </h1>
             <h2 className='mt-5 head_text font-bold text-black text-2xl'>Study Materials :</h2>
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
-                <ul>
-                    <li> <Link href={"/studymaterial/S6/Notes/"}></Link> </li>
+                <ul className="list-disc ml-5 w-full">
+                    <li> Networking Lab (CSL332) </li>
+                    <li> <Link href={"/studymaterial/S6/Notes/CST302"}> Compiler Design (CST 302) </Link> </li>
+                    <li> <Link href={"/studymaterial/S6/Notes/CST304"}> Computer Graphics And Image Processing (CST304) </Link> </li>
+                    <li> <Link href={"/studymaterial/S6/Notes/CST306"}> Algorithm Analysis And Design (CST306) </Link> </li>
+                    <li> <Link href={"/studymaterial/S6/Notes/CST308"}> Comprehensive Course Work (CST308) </Link> </li>
+                    <li> <Link href={"/studymaterial/S6/Notes/CST322"}> Data Analytics (CST322) </Link> </li>
+                    <li> <Link href={"/studymaterial/S6/Notes/HUT300"}> Industrial Economics And Foreign Trade (HUT300) </Link> </li>
                 </ul>       
             </div>
             <h2 className='mt-5 head_text font-bold text-black text-2xl'>Previous Year Question Papers :</h2>
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
-                <ul>
-                    <li> <Link href={"/studymaterial/S6/PreYearQuestion/"}></Link> </li>
+                <ul className="list-disc ml-5 w-full">
+                    <li> <Link href={"/studymaterial/S6/PreYearQuestion/CST302"}> Compiler Design (CST 302) </Link> </li>
+                    <li> <Link href={"/studymaterial/S6/PreYearQuestion/CST304"}> Computer Graphics And Image Processing (CST304) </Link> </li>
+                    <li> <Link href={"/studymaterial/S6/PreYearQuestion/CST306"}> Algorithm Analysis And Design (CST306) </Link> </li>
+                    <li> <Link href={"/studymaterial/S6/PreYearQuestion/CST308"}> Comprehensive Course Work (CST308) </Link> </li>
+                    <li> <Link href={"/studymaterial/S6/PreYearQuestion/CST322"}> Data Analytics (CST322) </Link> </li>
+                    <li> <Link href={"/studymaterial/S6/PreYearQuestion/HUT300"}> Industrial Economics And Foreign Trade (HUT300) </Link> </li>
+
                 </ul>       
             </div>
         </section>

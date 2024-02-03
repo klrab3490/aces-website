@@ -16,7 +16,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 1:- Number systems, Operations & Codes</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Decimal, Binary, Octal and Hexadecimal Number Systems- Number Base Conversions</li>
                         <li>Addition, Subtraction, Multiplication and Division of binary numbers</li>
                         <li>Representation of negative numbers- Complements, Subtraction with complements</li>
@@ -33,7 +33,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 2:- Boolean Algebra</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Postulates of Boolean Algebra</li>
                         <li>Basic theorems and Properties of Boolean Algebra</li>
                         <li>Boolean Functions - Canonical and Standard forms</li>
@@ -49,7 +49,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 3:- Combinational Logic Circuits</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Design Procedure & Implementation of combinational logic circuits- Binary adders and subtractors, Binary Parallel adder, Carry look-ahead adder, BCD adder, Code converter, Magnitude Comparator, Decoder, Demultiplexer, Encoder, Multiplexer, Parity generator/ Checker</li>
                     </ul>
                 </div>
@@ -61,7 +61,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 4:- Sequential logic circuits</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Flip-flops - SR, JK, T and D</li>
                         <li>Triggering Of Flip-Flops - Master-Slave Flip-Flops, Edge-Triggered Flip-Flops</li>
                         <li>Excitation table and characteristic equation</li>
@@ -78,7 +78,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 5:- Shift Registers & Arithmetic Algorithms</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Shift Registers - Serial In Serial Out, Serial In Parallel Out, Bidirectional Shift Register with Parallel load</li>
                         <li>Ring Counter, Johnson Counter - timing sequences and state diagrams</li>
                         <li>Algorithms for addition and subtraction of binary numbers in signed magnitude and 2's complement representations</li>

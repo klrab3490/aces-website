@@ -11,7 +11,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 1:- Human Values</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Morals, values and Ethics </li>
                         <li>Integrity- Academic integrity-Work</li>
                         <li>Ethics - Service Learning, Civic Virtue, Respect for others, Living peacefully, Caring and Sharing, Honestly, courage-Cooperation commitment, Empathy-Self Confidence -Social Expectations</li>
@@ -25,7 +25,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 2:- Engineering Ethics & Professionalism</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Senses of Engineering Ethics</li>
                         <li>Variety of moral issues- Types of inquiry</li>
                         <li>Moral dilemmas - Moral Autonomy - Kohlberg’s theory, Gilligan’s theory</li>
@@ -42,7 +42,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 3:- Engineering as Social Experimentation</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Engineering as Experimentation – Engineers as responsible Experimenters</li>
                         <li>Codes of Ethics</li>
                         <li>Plagiarism</li>
@@ -57,7 +57,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 4:- Responsibilities and Rights</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Collegiality and loyalty</li>
                         <li>Managing conflict</li>
                         <li>Respect for authority</li>
@@ -79,7 +79,7 @@ const page = () => {
                 <h3 className='p-5 font-bold text-black text-xl'>Module 5:- Global Ethical Issues</h3>
                 <div className='ml-10'>
                     <div className='underline'>Syllabus<br/></div>
-                    <ul className='ml-5 mb-5'>
+                    <ul className='ml-5 mb-5 list-disc'>
                         <li>Multinational Corporations</li>
                         <li>Environmental Ethics</li>
                         <li>Business Ethics</li>

@@ -14,7 +14,7 @@ const page = () => {
             </h1>
             <h2 className='mt-5 head_text font-bold text-black text-2xl'>Study Materials :</h2>
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
-                <ul>
+                <ul className="list-disc ml-5 w-full">
                     <li> <Link href={"https://github.com/vivekkj123/ktu-s5-csl-331-ssmp-lab"}>System Software And Microprocessors Lab (CSL331)</Link> </li>
                     <li> <Link href={"https://github.com/vivekkj123/ktu-s5-csl-333-dbms-lab"}>Database Management Systems Lab (CSL333)</Link> </li>
                     <li> <Link href={"/studymaterial/S5/Notes/CST301"}>Formal Languages And Automata Theory (CST301)</Link> </li>
@@ -27,7 +27,7 @@ const page = () => {
             </div>
             <h2 className='mt-5 head_text font-bold text-black text-2xl'>Previous Year Question Papers :</h2>
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
-                <ul>
+                <ul className="list-disc ml-5 w-full">
                     <li> <Link href={"/studymaterial/S5/PreYearQuestion/CST301"}>Formal Languages And Automata Theory (CST301)</Link> </li>
                     <li> <Link href={"/studymaterial/S5/PreYearQuestion/CST303"}>Computer Networks (CST303)</Link> </li>
                     <li> <Link href={"/studymaterial/S5/PreYearQuestion/CST305"}>Software Engineering (CST305)</Link> </li>
