@@ -35,7 +35,6 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
         ) : (
           <Image src="/aces.png" alt="ACES Logo" width={90} height={70} />
         )}
-        <p className="logo_text">ACES</p>
       </Link>
       <div className="justify-left">
         <ul className="hidden sm:flex gap-4">
